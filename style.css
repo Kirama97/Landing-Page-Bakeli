@@ -215,7 +215,8 @@ nav .recru_btn:hover {
     }
 
     .link_btn {
-        gap: 10px;
+        gap: 20px;
+        flex-direction: column;
     }
 
     .link_btn button {
