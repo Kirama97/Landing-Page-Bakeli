@@ -52,6 +52,11 @@ nav .navigation {
     gap: 30px;
 }
 
+           
+nav .burguer{
+    display: none;
+}
+
 nav .navigation a {
     transition: 0.5s ease;
     color: #fff;
@@ -140,17 +145,17 @@ nav .recru_btn:hover {
     margin-top: 100px;
     display: flex;
     gap: 30px;
-    flex: end;
+    
 }
 
 .link_btn button {
     padding: 20px 30px;
     border: none;
     outline: none;
-    font-size: 20px;
+    font-size: clamp(12px, 2vw, 20px);
 }
 .link_btn button i {
-    margin-left: 10px;
+    margin-left: 0.7rem;
 }
 
 .link_btn button:nth-child(1){
@@ -178,6 +183,126 @@ nav .recru_btn:hover {
 
 /* responsive */
 
+
+
+
+@media   (max-width: 1400px) {
+ 
+    nav {
+        padding: 0 5%;
+    }
+
+    .link_btn button {
+        font-size: 18px;
+        padding: 2% 5%;
+    }
+
+    .hero {
+        width: 80%;
+        padding: 5%;
+       
+    }
+
+    .header_content {
+        padding: 0 10%;
+    }
+
+  
+
+}
+
+    
+
+
+@media   (max-width: 950px) {
+    
+
+    header{
+        height: 100lvh;
+    }
+
+    nav {
+        padding: 35px;
+    }
+
+    nav .logo{
+        width: 70px;
+    }
+
+    nav .link{
+        display: none;
+    }
+
+    .header_content {
+        padding: 35px;
+    }
+
+    .hero {
+        width: 100%;
+        padding: 0;
+    }
+
+    .hero h1{
+        font-size: 45px;
+    }
+
+    .hero p {
+        font-size: 17px;
+    }
+
+    .link_btn {
+        gap: 20px;
+        
+    }
+
+    .link_btn button {
+        font-size: 16px;
+        padding: 15px 15px;
+    }
+ 
+    nav .burguer {
+       display: flex;
+       width: 30px;
+       fill: var(--color-principal);
+        
+    }
+
+    nav link.active{
+        transition: 1s  linear;
+    }
+
+    nav .link.active  {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        position: absolute;
+        top: 3%;
+        background-color: orange;
+        width: 80%;
+        padding: 20px 0;
+        border-radius: 5px;
+
+    }
+
+    
+ 
+   
+
+    nav .link.active .navigation {
+        flex-direction: column;
+
+    }
+    
+  
+
+    
+
+    
+}
+
+
+
+
 @media   (max-width: 600px) {
     
 
@@ -193,9 +318,6 @@ nav .recru_btn:hover {
         width: 60px;
     }
 
-    nav .link{
-        display: none;
-    }
 
     .header_content {
         padding: 25px;
@@ -226,3 +348,4 @@ nav .recru_btn:hover {
 
     
 }
+
