@@ -18,7 +18,7 @@
 
 header {
     height: 100vh;
-    background: linear-gradient( to top ,rgba(0, 0, 0, 0.13) , rgba(0, 0, 0, 0.548)),url(/image/background.jpg);
+    background: linear-gradient( to top ,rgba(0, 0, 0, 0.438) , rgba(0, 0, 0, 0.548)),url(/image/background.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
