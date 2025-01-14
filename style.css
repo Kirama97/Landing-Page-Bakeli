@@ -527,8 +527,8 @@ nav .recru_btn:hover {
      
     .sec1 h1{
         color: orange;
-        font-size: 22px;
-        width: 90%;
+        font-size: 23px;
+        width: 80%;
         border-bottom: 3px solid var(--color-principal);
         margin: 20px auto;
        
@@ -546,6 +546,7 @@ nav .recru_btn:hover {
    
     .sec1 .item {
         padding: 15px;
+       
     }
 
     .sec1 .item h2 {
