@@ -354,7 +354,7 @@ nav .recru_btn:hover {
     .sec1 h1{
         color: orange;
         font-size: 40px;
-        width: 47%;
+        width: 50%;
        
         margin: 50px auto;
        
@@ -450,8 +450,8 @@ nav .recru_btn:hover {
   
     .sec1 h1{
         color: orange;
-        font-size: 35px;
-        width: 47%;
+        font-size: 30px;
+        width: 70%;
        
         margin: 50px auto;
        
@@ -535,28 +535,50 @@ nav .recru_btn:hover {
         padding: 15px 10px;
     }
 
-
+   .sec1 .titre {
+    border-bottom: 2;
+   }
      
     .sec1 h1{
         color: orange;
-        font-size: 20px;
-        width: 53%;
-       
+        font-size: 25px;
+        width: 90%;
+        border-bottom: 3px solid var(--color-principal);
         margin: 20px auto;
        
         
     
     }
 
+    .sec1 p {
+        font-size: 12px;
+        margin-bottom: 50px;
+    }
+
     .reference ,.reference2{
         display: grid;
-        grid-template-columns: repeat(auto-fit ,minmax(400px , 1fr));
+        grid-template-columns: repeat(auto-fit ,minmax(300px , 1fr));
         gap: 20px;
-        margin-top: 1.3rem;
+        margin-top: 0.5rem;
         
         
        
     
+    }
+
+    .reference {
+        padding: 0 20px;
+    }
+
+    .sec1 .item {
+        padding: 15px;
+    }
+
+    .sec1 .item h2 {
+        font-size: 20px;
+    }
+    .sec1 .item p {
+        font-size: 12px;
     }
 
     .sec1 .item svg {
@@ -576,7 +598,7 @@ nav .recru_btn:hover {
       
 .sec1 {
     background-color: #f8f8f0;
-    padding: 5% 0;
+    padding: 5% 10px;
 
 }
 
